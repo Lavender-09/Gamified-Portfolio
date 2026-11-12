@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tanya Dominique – Player 1 Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap">
+<link rel="stylesheet" href="Styles/Style.css">
+</head>
+<body>
+<main>
+  <div class="top"><button class="theme px" id="theme" aria-label="Switch light or dark theme" style="font-size:10px">Light / dark</button></div>
+  <h1 class="px">Tanya Dominique</h1>
+  <p class="sub">Player 1: software engineering student at UTM, building web apps and AI tools.</p>
+  <div class="stripes" aria-hidden="true"></div>
+  <p class="sub">Open to a software engineering internship from February 2027.</p>
+  <button class="start px" id="start"><span class="blink">Press start</span></button>
+
+  <section class="hud" aria-label="Progress">
+    <div class="hud-row px"><span id="lv">Level 1</span><span id="xp">XP 0 / 500</span><span id="cl">Cleared 0 / 5</span></div>
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="500" aria-valuenow="0" id="pb"><div class="fill" id="fill"></div></div>
+  </section>
+
+  <h2 class="px">Player stats</h2>
+  <div class="stats">
+    <div class="stat"><span>C# / ASP.NET</span><div class="meter"><i style="width:80%"></i></div></div>
+    <div class="stat"><span>SQL</span><div class="meter"><i style="width:75%"></i></div></div>
+    <div class="stat"><span>HTML / CSS</span><div class="meter"><i style="width:80%"></i></div></div>
+    <div class="stat"><span>Java</span><div class="meter"><i style="width:60%"></i></div></div>
+    <div class="stat grow"><span>JavaScript (levelling up)</span><div class="meter"><i style="width:50%"></i></div></div>
+    <div class="stat grow"><span>Python (learning)</span><div class="meter"><i style="width:40%"></i></div></div>
+    <div class="stat grow"><span>Kotlin (learning)</span><div class="meter"><i style="width:30%"></i></div></div>
+    <div class="stat"><span>Leadership</span><div class="meter"><i style="width:70%"></i></div></div>
+  </div>
+
+  <h2 class="px">Choose a level</h2>
+  <div class="levels" id="levels"></div>
+
+  <h2 class="px">Badges earned</h2>
+  <div class="badges" id="badges"><span class="empty">No badges yet. Start a level to earn one.</span></div>
+
+  <section class="win" id="win">
+    <h2 class="px">You win!</h2>
+    <p>All five levels cleared. Let’s build something together.</p>
+    <a class="px" style="font-size:11px" href="mailto:tanya.dominique12@gmail.com">Email me</a>
+    <a class="px" style="font-size:11px" href="https://github.com/Lavender-09">GitHub</a>
+  </section>
+</main>
+<script src="Scripts/Script.js"></script>
+</body>
+</html>
